@@ -1,0 +1,395 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Rubik+Wet+Paint&display=swap');
+
+/*font-family: "Rubik Wet Paint", system-ui;*/
+/*font-family: "Playfair Display", serif;*/
+
+*{border:0px;
+padding:0px;
+margin:0px;}
+
+body{
+    background-color: rgba(15,77,126,1.00);    
+}
+
+
+#nav-sociales{
+
+background: linear-gradient(to bottom, rgba(0,183,234,1) 0%,rgba(38,239,232,1) 24%,rgba(143,212,232,1) 50%,rgba(38,239,232,1) 85%,rgba(0,158,195,1) 100%); 
+
+    width: 100%;
+    height: 40px;
+	
+}
+#nav-sociales ul{
+    margin: auto;
+    width: 1400px;
+}
+
+#nav-sociales ul li{
+    float: left;
+   
+    list-style-type: none;	
+}
+#contenedor{
+   width: 1400px;
+    height: auto;
+    margin: auto;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d4e5f4+0,a0c7e8+100 */
+background: linear-gradient(to bottom, rgba(212,229,244,1) 0%,rgba(160,199,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	
+	}
+
+#encabezado{
+    width: 1400px;
+    height: auto;	
+	margin: auto;
+}
+   
+
+
+#botonera{
+    height: 40px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d0e4f7+0,3ec1d8+50,87bcea+100 */
+background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(62,193,216,1) 50%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+	
+}
+#botonera ul{
+    widht: 1400px;
+   
+    /*border: 1px solid rgba(65,52,185,1.00);*/
+    
+}
+#botonera ul li{
+    float: left;
+    text-align: center;
+    line-height: 40px;
+    list-style-type: none;
+    /*border: 1px solid blue;*/
+    width: 280px;  
+	
+}
+#botonera ul li a{
+   font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(7,7,7,1.00);
+    text-transform: uppercase;
+    text-decoration: none;
+    	
+	
+}
+#botonera ul li a:hover{
+    color: rgba(16,102,134,0.89);
+    text-decoration: none;
+    font-family: "Rubik Wet Paint", system-ui;
+}
+#botonera ul li:hover{
+    background-color: rgba(191,216,238,1.00);
+}
+#centro{
+    height:750px;
+   	
+}
+
+	
+
+#pie{
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+   /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d0e4f7+0,3ec1d8+50,87bcea+100 */
+background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(62,193,216,1) 50%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-weight: 600;
+    text-transform: uppercase;
+	
+	
+}
+#caja1{
+    width: 45%;
+    height: 650px;
+    /* border: 1px solid rgba(235,11,15,1.00);*/
+    float: left;/*sirve para que la caja se posicione a la izquierda*/
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d4e5f4+0,70b0e5+100 */
+    background: linear-gradient(to bottom, rgba(212,229,244,1) 0%,rgba(112,176,229,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 06);
+}
+
+#caja2{
+    width: 45%;
+    height: 650px;
+    float: right;/*sirve para que la caja se posicione a la derecha*/
+    margin-top: 30px;
+    margin-right: 20px;
+    /*border: 1px solid rgba(151,217,63,1.00);*/
+    margin-bottom: 10px;
+    margin-left: 20px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#70b0e5+0,70b0e5+0,d4e5f4+100 */
+background: linear-gradient(to bottom, rgba(112,176,229,1) 0%,rgba(112,176,229,1) 0%,rgba(212,229,244,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    box-shadow: 5px 5px 20px 2px rgba(0, 0, 0, 06);
+    border-radius: 20px;
+}
+#caja1 h1{
+    border-radius: 20px 20px 0px 0px;
+    /* Permalink - use to edit and share this gradient. Enlace permanente - úsalo para editar y compartir este gradiente: https://colorzilla.com/gradient-editor/#d0e4f7+0,3ec1d8+50,87bcea+100 */
+    background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(62,193,216,1) 50%,rgba(135,188,234,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: rgba(9,9,9,1.00);
+    text-align: center;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+    line-height: 30px;
+}
+
+#caja1 h4{
+    margin-bottom: 10px;
+	margin-top: 10px;
+    margin-left: 20px;
+}
+#caja1 h4 a{
+    font-family: "Playfair Display", serif;
+    color: rgba(28,12,243,1.00);
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;	
+	
+	}
+#caja1 h4 a:hover{
+    color: rgba(5,5,5,1.00);
+    font-family: "Rubik Wet Paint", system-ui;	
+}
+#caja1 p{
+    font-family: "Playfair Display", serif;
+    font-size: 24px;/*depende dela fuente que se use*/
+    color: rgba(11,11,11,1.00);
+    line-height: 28px;/*interlineado*/
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+	 margin-left: 10px;
+    margin-right: 10px;
+}
+#caja1 img{
+    display: block;
+    margin: auto;
+    border: 4px solid rgba(59,124,255,1.00);
+	margin-bottom: 10px;
+margin-top: 10px;
+}
+
+#caja2 h3{
+   background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(62,193,216,1) 50%,rgba(135,188,234,1) 100%);
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: rgba(5,5,5,1.00);
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    line-height: 30px;
+}
+#caja2 p{
+    margin-bottom: 10px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 21px;
+    line-height: 24px;
+    color: rgba(6,6,6,1.00);
+	margin-top: 10px;
+}
+
+#caja2 img{
+    display: block;
+    margin: auto;
+    border: 4px solid rgba(59,124,255,1.00);
+	margin-bottom: 10px;
+margin-top: 10px;
+}
+#accordion{
+    height: auto;
+    margin: auto;
+    width: auto;
+}
+#accordion img{
+	 border: 4px solid rgba(59,124,255,1.00);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.amenaza{
+    height: 490px;		
+	
+}
+.amenazas{
+    width: 800px;
+    height: 400px;	
+	float: right;
+	/*border: 1px solid blue;*/
+		margin-top: 30px;
+}
+
+.amenazas p{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(3,3,3,1.00);	
+	margin-bottom: 10px;
+}
+.tabs{
+    height: 685px;	
+}
+.texto{
+    width: 800px;
+    /*border: solid 1px red;*/
+    float: right;
+    margin-top: 30px;
+    margin-right: 20px;
+    height: 400px;	
+}
+
+
+
+.texto p{
+    font-family: "Playfair Display", serif;
+    color: rgba(29,25,25,1.00);
+    text-align: justify;
+    font-size: 20px;
+    line-height: 24px;	
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+
+	
+	section{
+    height: 500px;	
+	}
+
+article{
+    width: 600px;
+    height: 600px;	
+	float:left;
+	margin-top: 50px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-bottom: 10px;
+	/*border: solid 1px blue;*/
+ background: linear-gradient(to bottom, rgba(208,228,247,1) 0%,rgba(62,193,216,1) 50%,rgba(135,188,234,1) 100%);
+	box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3);
+border-radius: 20px;
+}
+
+article form{
+    /*border: solid 2px black;*/
+    height: 600px;
+    	
+	
+}
+
+form label{
+    display: block;
+   font-family: "Playfair Display", serif;
+    font-size: 20px;
+    color: rgba(0,0,0,1.00);	
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+		
+	}
+form input{
+    width: 550px;
+    height: 40px;
+	border: solid black 1px;
+	border-radius: 30px; 
+	margin-left: 10px;
+	
+}
+
+form textarea{
+    width: 550px;
+    border: solid black 1px;
+    border-radius: 30px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3);
+    height: auto;
+}
+
+
+#enviar, #restablecer{
+    width: 200px;
+    height: 40px;
+    /*border: solid black 1px;*/
+    border-radius: 30px;
+    background-color: rgba(73,69,69,1.00);
+    color: rgba(251,248,248,1.00);
+   
+    margin-left: 60px;
+    margin-bottom: 10px;
+	margin-top: 20px;
+}
+
+article h3{
+	 font-family: "Playfair Display", serif;
+	font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+#video{
+	
+	margin-left: 50px;
+	
+	
+	
+}
+.medidas{
+    width: 400px;
+    height: 320px;
+    /*border: 1px solid blue;*/
+    float: left;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    box-shadow: 5px 5px 20px 1px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(to bottom, rgba(0,183,234,0.6) 0%,rgba(38,239,232,0.6) 24%,rgba(143,212,232,0.6) 50%,rgba(38,239,232,0.6) 85%,rgba(0,158,195,0.6) 100%);
+    border-radius: 20px;
+}
+.medidas h3{
+    font-family: "Playfair Display", serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
+}
+.medidas p{
+    font-family: "Playfair Display", serif;
+    text-align: left;
+    font-size: 15px;
+    line-height: 19px;
+    margin-left: 10px;
+    font-weight: 500;
+}
